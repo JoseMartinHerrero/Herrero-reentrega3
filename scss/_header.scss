@@ -5,21 +5,26 @@ header {
 
 	@keyframes tituloAnimado {
 		0% {
-		  width:0px;
+			width: 0px;
 		}
-		25%{
-		  width: 150px;
+
+		25% {
+			width: 150px;
 		}
-		50%{
-		  width: 200px;
+
+		50% {
+			width: 200px;
 		}
-		75%{
-		  width: 250px;
+
+		75% {
+			width: 250px;
 		}
-		100%{
-		  width:280px ;
+
+		100% {
+			width: 280px;
 		}
-	  }
+	}
+
 	.logo {
 		width: 150px;
 		height: 150px;
@@ -30,10 +35,11 @@ header {
 		text-transform: uppercase;
 		color: black;
 		font-size: 20px;
-		font-family:Verdana, Geneva, Tahoma, sans-serif;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
 	}
-	a:hover{
-		color:black;
+
+	a:hover {
+		color: black;
 		background-color: #F9A419;
 	}
 
