@@ -1,138 +1,137 @@
 @charset "UTF-8";
-
-/*mixin*/
 .estiloDeParrafo {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: left;
   font-size: 1rem;
 }
 
-/*header*/
 header {
-  background-color: blanchedalmond;
+  background-color: #FCFA75;
   border-bottom: 1px solid black;
 }
-
 @keyframes tituloAnimado {
   0% {
     width: 0px;
   }
-
   25% {
     width: 150px;
   }
-
   50% {
     width: 200px;
   }
-
   75% {
     width: 250px;
   }
-
   100% {
     width: 280px;
   }
 }
-
 header .logo {
-  font-size: 3rem;
-  color: #E7C60D;
-  font-family: cursive;
-  background-color: #675435;
-  border-radius: 25px;
-  animation-name: tituloAnimado;
-  animation-iteration-count: 1;
-  animation-duration: 10s;
-  animation-timing-function: linear;
+  width: 150px;
+  height: 150px;
 }
-
 header a {
   text-decoration: none;
   text-transform: uppercase;
   color: black;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+header a:hover {
+  color: black;
+  background-color: #F9A419;
+}
 header li {
   display: inline;
   list-style: none;
   margin: 10px;
 }
 
-/*main*/
 main {
-  color: darkslategray;
-  margin: 20px;
-  padding: 20px;
+  color: black;
+  background-color: #A7C0FD;
 }
-
-main img {
-  width: 800px;
-  height: 800px;
-}
-
-main .titular {
-  color: sienna;
-}
-
 main .tamañoCard {
   width: 250px;
-  height: 450px;
-  margin: 10px;
+  height: 500px;
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid black;
 }
-
 main .imgVianda {
-  width: 100%;
-  height: 200px;
+  width: 235px;
+  height: 100%;
 }
-
-main .dia {
-  background-color: #E2C149;
-}
-
-main h2 {
-  text-align: center;
-}
-
-main h3 {
-  text-align: center;
-}
-
 main .colorBtn {
   background-color: #E7940D;
   color: black;
+  border: 2px solid black;
 }
-
 main .colorBtn:hover {
   background-color: #BDA44B;
   color: aliceblue;
 }
-
+main .dia {
+  background-color: #E2C149;
+  border: 1px solid rgb(51, 48, 2);
+}
+main h1 {
+  text-align: center;
+}
+main h2 {
+  text-align: center;
+}
 main .tamañoGaleria {
   width: 250px;
   height: 250px;
 }
-
 main .empanadas {
   text-align: left;
 }
-
 main .ubicacionParrafo {
-  text-align: left;
+  text-align: center;
+}
+main .parrafoViandas {
+  margin: 10px;
+  padding: 25px;
+}
+main .secciones {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+main .seccionesFotos {
+  border: 2px solid black;
+  text-align: center;
+}
+main .seccionVacia {
+  border: 2px solid black;
+  background-color: blue;
+}
+main img {
+  width: 100%;
+  height: 150px;
+}
+main .eventos {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-/*formulario*/
 form {
-  margin-top: 25px;
+  width: 50%;
+  height: 50%;
+  margin-left: 25%;
+  padding: 25px;
+  background-color: #FCFA75;
+  border: 2px solid black;
 }
-
 form label {
   display: block;
   font-weight: bold;
   margin-bottom: 10px;
   color: darkslategray;
 }
-
 form input {
   display: block;
   width: 100%;
@@ -141,7 +140,6 @@ form input {
   font-size: 20px;
   margin-bottom: 10px;
 }
-
 form textarea {
   display: block;
   width: 100%;
@@ -150,24 +148,38 @@ form textarea {
   font-size: 20px;
   margin-bottom: 10px;
 }
-
 form .forFormulario {
-  padding: 10px 20px;
+  padding: 10px;
   cursor: pointer;
+  width: 125px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+form .forFormulario:hover {
+  background-color: #040953;
+  color: beige;
 }
 
-/*carrusel*/
 .carrusel {
-  height: 400px;
+  height: 500px;
   object-fit: cover;
 }
 
-/*h1*/
 .subTitulo {
   background-color: #E7C60D;
   color: black;
   text-align: center;
   padding: 1rem;
+}
+
+footer {
+  background-color: #FB5A2A;
+  color: white;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=estilo.css.map */

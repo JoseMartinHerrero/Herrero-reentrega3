@@ -1,6 +1,7 @@
 header {
-	background-color: blanchedalmond;
+	background-color: #FCFA75;
 	border-bottom: 1px solid black;
+
 
 	@keyframes tituloAnimado {
 		0% {
@@ -20,21 +21,20 @@ header {
 		}
 	  }
 	.logo {
-		font-size: 3rem;
-		color: #E7C60D;
-		font-family: cursive;
-		background-color: #675435;
-		border-radius: 25px;
-		animation-name: tituloAnimado;
-		animation-iteration-count:1;
-		animation-duration: 10s;
-		animation-timing-function: linear;
+		width: 150px;
+		height: 150px;
 	}
 
 	a {
 		text-decoration: none;
 		text-transform: uppercase;
 		color: black;
+		font-size: 20px;
+		font-family:Verdana, Geneva, Tahoma, sans-serif;
+	}
+	a:hover{
+		color:black;
+		background-color: #F9A419;
 	}
 
 	li {

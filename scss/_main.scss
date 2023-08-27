@@ -1,43 +1,27 @@
 main {
-	color: darkslategray;
-	margin: 20px;
-	padding: 20px;
+	color: black;
+	background-color: #A7C0FD;
 
-	img {
-		width: 800px;
-		height: 800px;
-	}
-
-	.titular {
-		color: sienna;
-	}
-
+	//card
 	.tamañoCard {
 		width: 250px;
-		height: 450px;
-		margin: 10px;
+		height: 500px;
+		margin: 5px;
+		padding: 5px;
+		border: 2px solid black;
+
 	}
 
 	.imgVianda {
-		width: 100%;
-		height: 200px;
-	}
+		width: 235px;
+		height: 100%;
 
-	.dia {
-		background-color: #E2C149;
-	}
-
-h2 {
-	text-align: center;
-}
-
-	h3 {
-		text-align: center;
 	}
 
 	.colorBtn {
 		background-color: #E7940D;
 		color: black;
+		border: 2px solid black;
 	}
 
 	.colorBtn:hover {
@@ -45,15 +29,70 @@ h2 {
 		color: aliceblue;
 	}
 
+
+	.dia {
+		background-color: #E2C149;
+		border: 1px solid rgb(51, 48, 2);
+	}
+
+	//subtitulos
+	h1 {
+		text-align: center;
+	}
+
+	h2 {
+		text-align: center;
+	}
+
 	.tamañoGaleria {
 		width: 250px;
 		height: 250px;
 	}
 
-	.empanadas{
+	.empanadas {
 		text-align: left;
 	}
-	.ubicacionParrafo{
+
+	.ubicacionParrafo {
 		text-align: $ubicacionParrafo;
+
 	}
+	.parrafoViandas{
+		margin: 10px;
+		padding: 25px;
+	}
+
+	//secciones
+
+	.secciones {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		gap: 10px;
+		grid-template-rows: 1fr 1fr 1fr;
+	}
+
+	.seccionesFotos {
+		border: 2px solid black;
+		text-align: center;
+	}
+
+	.seccionVacia {
+		border: 2px solid black;
+		background-color: blue;
+	}
+
+	img {
+		width: 100%;
+		height: 150px;
+
+	}
+
+	//eventos
+	.eventos {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		
+	}
+
+	
 }
